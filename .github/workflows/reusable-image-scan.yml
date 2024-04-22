@@ -49,7 +49,7 @@ jobs:
 
       - name: Generate SBOM
         env:
-          IMAGE: ${{ matrix.image }}
+          IMAGE: ${{ steps.registry_case.outputs.lowercase }}
         run: |
           syft ${IMAGE} \
             --output cyclonedx-json=sbom.json \
@@ -66,7 +66,7 @@ jobs:
       - name: Generate artifact name
         id: artifact-name
         env:
-          IMAGE: ${{ matrix.image }}
+          IMAGE: ${{ steps.registry_case.outputs.lowercase }}
         run: |
           echo "name=$(echo ${IMAGE} | awk -F'/' '{print $NF}' | sed 's/:/-/g')" >> $GITHUB_OUTPUT
 
