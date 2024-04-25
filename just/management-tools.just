@@ -25,5 +25,5 @@ unmanage:
     echo 'Removing Wazuh'
     sudo /var/ossec/bin/wazuh-control stop
     sudo rm -rf /var/ossec
-    sudo groupdel wazuh
     sudo userdel wazuh
+    sudo groupdel wazuh
