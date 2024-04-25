@@ -15,7 +15,6 @@ manage:
     echo 'Setting up Wazuh'
     sudo podman run -v /tmp:/tmp -w /tmp --rm --privileged registry.fedoraproject.org/fedora:latest /bin/bash -c "curl -o wazuh-agent-4.7.3-1.x86_64.rpm https://packages.wazuh.com/4.x/yum/wazuh-agent-4.7.3-1.x86_64.rpm && sudo WAZUH_MANAGER='100.67.133.75' rpm -ihv wazuh-agent-4.7.3-1.x86_64.rpm && cp -r /var/ossec /tmp/ossec"
     sudo mv /tmp/ossec /var/ossec
-    sudo groupadd wazuh
     sudo adduser wazuh
     sudo chown -R wazuh:wazuh /var/ossec
     sudo systemctl enable --now wazuh-agent.service
@@ -26,4 +25,3 @@ unmanage:
     sudo /var/ossec/bin/wazuh-control stop
     sudo rm -rf /var/ossec
     sudo userdel wazuh
-    sudo groupdel wazuh
