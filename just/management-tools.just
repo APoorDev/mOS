@@ -25,3 +25,7 @@ unmanage:
     sudo /var/ossec/bin/wazuh-control stop
     sudo rm -rf /var/ossec
     sudo userdel wazuh
+
+# Install NIX
+install-nix:
+    curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
