@@ -3,7 +3,7 @@
 
 ## Bluefin - [projectbluefin.io](https://projectbluefin.io)
 
-[![bluefin 38](https://github.com/APoorDev/bluefin/actions/workflows/build-38-bluefin.yml/badge.svg)](https://github.com/APoorDev/bluefin/actions/workflows/build-38-bluefin.yml) [![bluefin 39](https://github.com/APoorDev/bluefin/actions/workflows/build-39-bluefin.yml/badge.svg)](https://github.com/APoorDev/bluefin/actions/workflows/build-39-bluefin.yml) [![bluefin 40](https://github.com/APoorDev/bluefin/actions/workflows/build-40-bluefin.yml/badge.svg)](https://github.com/APoorDev/bluefin/actions/workflows/build-40-bluefin.yml)
+[![bluefin 39](https://github.com/APoorDev/bluefin/actions/workflows/build-39-bluefin.yml/badge.svg)](https://github.com/APoorDev/bluefin/actions/workflows/build-39-bluefin.yml) [![bluefin 40](https://github.com/APoorDev/bluefin/actions/workflows/build-40-bluefin.yml/badge.svg)](https://github.com/APoorDev/bluefin/actions/workflows/build-40-bluefin.yml)
 
 ## Aurora - [getaurora.dev](https://getaurora.dev)
 
