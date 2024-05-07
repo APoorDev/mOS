@@ -9,7 +9,6 @@
 
 [![aurora 39](https://github.com/APoorDev/bluefin/actions/workflows/build-39-aurora.yml/badge.svg)](https://github.com/APoorDev/bluefin/actions/workflows/build-39-aurora.yml) [![aurora 40](https://github.com/APoorDev/bluefin/actions/workflows/build-40-aurora.yml/badge.svg)](https://github.com/APoorDev/bluefin/actions/workflows/build-40-aurora.yml)
 
-
 ## Secure Boot
 
 Secure Boot is supported by default on our systems, providing an additional layer of security. After the first installation, you will be prompted to enroll the secure boot key in the BIOS.

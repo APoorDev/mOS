@@ -121,7 +121,9 @@
 				"ubuntu-family-fonts",
 				"udica",
 				"virt-manager",
-				"virt-viewer"
+				"virt-viewer",
+				"edk2-tools",
+				"spice-gtk-tools"
 			]
 		},
 		"exclude": {
