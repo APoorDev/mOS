@@ -19,6 +19,11 @@ benchmark:
 bluefin-cli:
     @/usr/libexec/enable-bluefin-cli.sh
 
+# Set up automatic LUKS unlock via TPM
+setup-luks-tpm-unlock:
+    #!/usr/bin/bash
+    sudo /usr/libexec/luks-enable-tpm2-autounlock
+
 # Configure Terminal Experience
 [private]
 configure-terminal:
