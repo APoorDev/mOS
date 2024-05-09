@@ -1,1 +1,1 @@
-alias fastfetch="/usr/bin/fastfetch --logo /usr/share/ublue-os/bluefin-logos/symbols/dolly -c /usr/share/ublue-os/ublue-os.jsonc"
+alias fastfetch="/usr/bin/fastfetch --file /usr/share/ublue-os/sd-logo.txt --logo-type file -c /usr/share/ublue-os/ublue-os.jsonc"
