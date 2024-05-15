@@ -5,4 +5,4 @@ NoDisplay=true
 StartupNotification=false
 Type=Application
 X-KDE-GlobalAccel-CommandShortcut=true
-X-KDE-Shortcuts=Meta+Return
+X-KDE-Shortcuts=Ctrl+Alt+B
