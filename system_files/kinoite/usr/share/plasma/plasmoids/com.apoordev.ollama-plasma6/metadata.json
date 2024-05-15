@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "apoordev"
+            }
+        ],
+        "Category": "Online Services",
+        "Description": "Add a ollama on your desktop.",
+        "Icon": "applications-internet",
+        "Id": "com.apoordev.ollama-plasma6",
+        "License": "GPL-2.0+",
+        "Name": "Ollama",
+        "Website": "https://github.com/apoordev/com.apoordev.ollama-plasma6.git",
+        "github": "https://github.com/apoordev/"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
