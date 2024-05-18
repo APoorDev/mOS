@@ -36,6 +36,7 @@
 				"stress-ng",
 				"tailscale",
 				"tmux",
+				"zoxide",
 				"usbmuxd",
 				"wireguard-tools",
 				"xprop",
