@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.1.0](https://github.com/APoorDev/mOS/compare/v3.0.0...v3.1.0) (2024-05-31)
+
+
+### Features
+
+* add waydroid setup from bazzite ([5592703](https://github.com/APoorDev/mOS/commit/55927037d72da727ee312fc9748d914361a7ca49))
+
+
+### Bug Fixes
+
+* **motd:** be less boring than bazzite ([#1352](https://github.com/APoorDev/mOS/issues/1352)) ([e80303f](https://github.com/APoorDev/mOS/commit/e80303fce087b47571ee3c0d740f47127ab09e57))
+* remove extra whitespace in fastfetch ([062b602](https://github.com/APoorDev/mOS/commit/062b60241ed0c067c0ef01799a31eb6c42735770))
+
 ## [3.0.0](https://github.com/APoorDev/mOS/compare/v2.7.0...v3.0.0) (2024-05-23)
 
 
