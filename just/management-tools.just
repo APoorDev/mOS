@@ -12,6 +12,8 @@
 
 # Setup Management
 manage ACTION="":
+    #!/bin/bash
+    OPTION={{ ACTION }}
     if [ "$OPTION" == "help" ]; then
         echo "Usage: ujust manage <option>"
         echo "  <option>: Specify the ip of the wazuh server for management"
@@ -23,7 +25,6 @@ manage ACTION="":
     fi 
     if [[ "$OPTION" =~ [0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3} ]]; then
         echo 'Setting up Wazuh'
-        OPTION={{ ACTION }}
         sudo podman run -v /tmp:/tmp -w /tmp --rm --privileged registry.fedoraproject.org/fedora:latest /bin/bash -c "curl -o wazuh-agent-4.7.3-1.x86_64.rpm https://packages.wazuh.com/4.x/yum/wazuh-agent-4.7.3-1.x86_64.rpm && sudo WAZUH_MANAGER=$OPTION rpm -ihv wazuh-agent-4.7.3-1.x86_64.rpm && cp -r /var/ossec /tmp/ossec"
         sudo mv /tmp/ossec /var/ossec
         sudo groupadd -r wazuh
@@ -33,7 +34,6 @@ manage ACTION="":
     else
         echo 'Address must be an IPv4 address.'
         exit 0
-        
 
 # Remove Management
 unmanage:
@@ -42,7 +42,6 @@ unmanage:
     sudo rm -rf /var/ossec
     sudo userdel wazuh
     sudo groupdel wazuh
-    
 
 # Install NIX
 install-nix:
