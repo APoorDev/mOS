@@ -128,7 +128,8 @@
 				"virt-manager",
 				"virt-viewer",
 				"edk2-tools",
-				"spice-gtk-tools"
+				"spice-gtk-tools",
+				"freerdp"
 			]
 		},
 		"exclude": {
