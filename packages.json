@@ -135,7 +135,8 @@
 				"virt-viewer",
 				"edk2-tools",
 				"spice-gtk-tools",
-				"freerdp"
+				"freerdp",
+				"ydotool"
 			]
 		},
 		"exclude": {
