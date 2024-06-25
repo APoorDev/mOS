@@ -13,17 +13,10 @@
 
 Secure Boot is supported by default on our systems, providing an additional layer of security. After the first installation, you will be prompted to enroll the secure boot key in the BIOS.
 
-Enter the password `ublue-os` 
-when prompted to enroll our key.
+Enter the password `ublue-os` when prompted to enroll the mOS key.
 
-If this step is not completed during the initial setup, you can manually enroll the key by running the following command in the terminal:
-
-`
-ujust enroll-secure-boot-key
-`
-
-Secure boot is supported with our custom key. The pub key can be found in the root of the bazzite repository [here](https://github.com/ublue-os/bazzite/blob/main/secure_boot.der).
-If you'd like to enroll this key prior to installation or rebase, download the key and run the following:
+Secure boot is supported with our custom key. The pub key can be found in this repository [here](https://github.com/APoorDev/mOS/blob/main/secure_boot.der).
+If you'd like to enroll this key manually, download the key and run the following:
 
 ```bash
 sudo mokutil --timeout -1

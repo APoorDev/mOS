@@ -229,8 +229,8 @@ jobs:
         with:
           image: ${{ steps.build_image.outputs.image }}
           default-tag: ${{ env.DEFAULT_TAG }}
-          privkey: ${{ secrets.AKMOD_PRIVKEY_20230518 }}
-          pubkey: /etc/pki/akmods/certs/akmods-ublue.der
+          privkey: ${{ secrets.AKMOD_PRIVKEY_20240625 }}
+          pubkey: /etc/pki/akmods/certs/akmods-mos.der
           tags: ${{ steps.build_image.outputs.tags }}
           kernel_suffix: ${{ env.KERNEL_SUFFIX }}
           strip: false
