@@ -153,8 +153,6 @@
 				"gnome-tour"
 			],
 			"kinoite": [
-				"krfb",
-				"krfb-libs",
 				"plasma-welcome"
 			],
 			"dx": []
