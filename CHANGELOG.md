@@ -1,5 +1,74 @@
 # Changelog
 
+## [3.0.0](https://github.com/APoorDev/mOS/compare/v3.1.0...v3.0.0) (2024-07-29)
+
+
+### Features
+
+* add bootc to Bluefin ([#1285](https://github.com/APoorDev/mOS/issues/1285)) ([05a262a](https://github.com/APoorDev/mOS/commit/05a262a6172928a751393fb49462ec7342475a2f))
+* add bpftop ([#1530](https://github.com/APoorDev/mOS/issues/1530)) ([78bd85c](https://github.com/APoorDev/mOS/commit/78bd85c7627c18a4205f9717b74971ee5b15b322))
+* add foo2zjs ([#1393](https://github.com/APoorDev/mOS/issues/1393)) ([c21f224](https://github.com/APoorDev/mOS/commit/c21f224805cdbf06f3ecc2341599ac9f5493ab19))
+* add freerdp to dx images ([ae878c6](https://github.com/APoorDev/mOS/commit/ae878c6544514f2fa08d9366534e9bd74b851f16))
+* Add kernel signer to sign Fedora kernel with ublue's keys for secure boot ([#1404](https://github.com/APoorDev/mOS/issues/1404)) ([d709382](https://github.com/APoorDev/mOS/commit/d709382cf1cae75c68eb08c7b061d25758a3c9ca))
+* add krb5-workstation ([#1403](https://github.com/APoorDev/mOS/issues/1403)) ([f03b094](https://github.com/APoorDev/mOS/commit/f03b09495c4cf04192cbb96024badf4eb7320ea6))
+* add opendyslexic font ([#1516](https://github.com/APoorDev/mOS/issues/1516)) ([d340915](https://github.com/APoorDev/mOS/commit/d34091529608693eb8cc1d2addc7e4621b724d76))
+* add skanpage and simple-scan ([#1368](https://github.com/APoorDev/mOS/issues/1368)) ([77ffb28](https://github.com/APoorDev/mOS/commit/77ffb2870e51d35a29cdd042f8b669c1cc94f1d2))
+* add umoci for incus container support ([#1512](https://github.com/APoorDev/mOS/issues/1512)) ([08106c1](https://github.com/APoorDev/mOS/commit/08106c155a3b20e46e00a965566b12e6048b44f7))
+* Add ydotool to the dx image ([#1426](https://github.com/APoorDev/mOS/issues/1426)) ([b5eeaaf](https://github.com/APoorDev/mOS/commit/b5eeaaff80d3d58dd7d8629e070af94b918ac8a0))
+* bluefin cli now sources bling ([#1441](https://github.com/APoorDev/mOS/issues/1441)) ([447ad1a](https://github.com/APoorDev/mOS/commit/447ad1aaa2aab1b7f6fe29293d77d5be02d5d36d))
+* **dx:** add monaspace font ([#1475](https://github.com/APoorDev/mOS/issues/1475)) ([de9e5e3](https://github.com/APoorDev/mOS/commit/de9e5e3faa10a42ae56052ff6fb230161cf49d24))
+* GTS use coreos matched kernel ([#1456](https://github.com/APoorDev/mOS/issues/1456)) ([080802f](https://github.com/APoorDev/mOS/commit/080802f14baf9f5c6100cfc092e32b77214beaf1))
+* include krfb ([30517d4](https://github.com/APoorDev/mOS/commit/30517d43e4475440105961521da6acef122ed304))
+* install flatpak-builder in dx ([#1372](https://github.com/APoorDev/mOS/issues/1372)) ([eafc971](https://github.com/APoorDev/mOS/commit/eafc9711c2217da6f26772801d0462aabe7f6cc3))
+* **just:** Add descriptions to rebase-helper ([#1514](https://github.com/APoorDev/mOS/issues/1514)) ([c8c2d15](https://github.com/APoorDev/mOS/commit/c8c2d15f8582a0a3fd2d15906603c882a0e44bf4))
+* **just:** enable volume and add access info for ollama-web ([#1380](https://github.com/APoorDev/mOS/issues/1380)) ([795e749](https://github.com/APoorDev/mOS/commit/795e74975f393ff84ecf6b9052860a14df846c73))
+* **motd:** add link to feedback survey ([#1370](https://github.com/APoorDev/mOS/issues/1370)) ([daaca5c](https://github.com/APoorDev/mOS/commit/daaca5c7fcba258500f33f537953088c37cd863c))
+* move utilities into the utility folder ([#1518](https://github.com/APoorDev/mOS/issues/1518)) ([01c3cbd](https://github.com/APoorDev/mOS/commit/01c3cbdf3129659d2b085f6825a058bc9a2511db))
+* remove bluefin-cli shortcut ([#1503](https://github.com/APoorDev/mOS/issues/1503)) ([059a167](https://github.com/APoorDev/mOS/commit/059a167e576589c097c9ea4d62327435378cbbda))
+* seasonal variation in sunrise/sunset times for seasonal Bluefin backgrounds ([#1466](https://github.com/APoorDev/mOS/issues/1466)) ([24ddce9](https://github.com/APoorDev/mOS/commit/24ddce9c379fb835c65a40caa6092a6b9754d3a9))
+* Set ELECTRON_OZONE_PLATFORM_HINT=auto as the default ([#1434](https://github.com/APoorDev/mOS/issues/1434)) ([60fe173](https://github.com/APoorDev/mOS/commit/60fe17361a97b522f447482f2ec12bbd3385dba0))
+* switch to Clapper from Celluloid ([#1374](https://github.com/APoorDev/mOS/issues/1374)) ([bd63bf2](https://github.com/APoorDev/mOS/commit/bd63bf2467ba98f2ad051ecf1b8842e6de3b0b27))
+* switch to distro ptyxis for F40 ([#1523](https://github.com/APoorDev/mOS/issues/1523)) ([65b15d2](https://github.com/APoorDev/mOS/commit/65b15d20b513b72932d9c213dca9b6709c81fdb5))
+* switch to GNOME Papers ([#1399](https://github.com/APoorDev/mOS/issues/1399)) ([53bacc9](https://github.com/APoorDev/mOS/commit/53bacc9d66857e838baf772c271ee22f608da81d))
+* switch to summer wallpaper ([#1390](https://github.com/APoorDev/mOS/issues/1390)) ([a5b2aaa](https://github.com/APoorDev/mOS/commit/a5b2aaaa934d44e6d89094ab8ecffbeac520a558))
+* switch to summer wallpaper set ([#1356](https://github.com/APoorDev/mOS/issues/1356)) ([48d0d3c](https://github.com/APoorDev/mOS/commit/48d0d3c6047a484b97bd1eb3a7e199ca98cd4bc7))
+* ujust command to toggle Tailscale ([#1477](https://github.com/APoorDev/mOS/issues/1477)) ([9f914cf](https://github.com/APoorDev/mOS/commit/9f914cfd28036e2cc45031c9f270a991a3b0db82))
+* Update VARIANT_ID in /etc/os-release ([#1437](https://github.com/APoorDev/mOS/issues/1437)) ([6674d85](https://github.com/APoorDev/mOS/commit/6674d857b9746b581dbb4e236b97450da5d0089f))
+* Use Cached Kernel, fsync for latest ([#1502](https://github.com/APoorDev/mOS/issues/1502)) ([6cd71c1](https://github.com/APoorDev/mOS/commit/6cd71c12f173bfa8bbd552def259c587a4df8d40))
+* Use CoreOS Kernel ([#1429](https://github.com/APoorDev/mOS/issues/1429)) ([cc22113](https://github.com/APoorDev/mOS/commit/cc22113a9d88295cba514fbbb434530265baf41c))
+
+
+### Bug Fixes
+
+* add skopeo to devcontainer's features ([#1519](https://github.com/APoorDev/mOS/issues/1519)) ([98539b8](https://github.com/APoorDev/mOS/commit/98539b8c063da910eb26018b527fae90a0afd051))
+* adjust build schedule based on adjustments to main and hwe ([#1415](https://github.com/APoorDev/mOS/issues/1415)) ([2dc620f](https://github.com/APoorDev/mOS/commit/2dc620f1545e441af9749063ec9197b786bd8ecc))
+* broken path in brew setup script for fish ([#1365](https://github.com/APoorDev/mOS/issues/1365)) ([379ca28](https://github.com/APoorDev/mOS/commit/379ca2821d9b8361e5d31830f3a12522ad798ab5))
+* **ci:** Don't sign kernel on PR ([#1431](https://github.com/APoorDev/mOS/issues/1431)) ([42e9854](https://github.com/APoorDev/mOS/commit/42e9854f92b2e0d2828b4019beac4f84165f4b19))
+* Correct timing issues on dynamic wallpapers ([#1385](https://github.com/APoorDev/mOS/issues/1385)) ([e0c0c73](https://github.com/APoorDev/mOS/commit/e0c0c73b9fe7a08761c1636b6d945ca1437d8e8a))
+* correct zfs install ([#1507](https://github.com/APoorDev/mOS/issues/1507)) ([e35a354](https://github.com/APoorDev/mOS/commit/e35a354c64ca346739d9543634e6d9206237b4da))
+* fix bad fastfetch output in kitty ([#1364](https://github.com/APoorDev/mOS/issues/1364)) ([6a87517](https://github.com/APoorDev/mOS/commit/6a875177c62f12a1f572af96667332857a1ab8b1))
+* just format ([d5eca2d](https://github.com/APoorDev/mOS/commit/d5eca2ddf33ef947499e7b48487b448c9f672dbc))
+* **just:** installer typo ([#1418](https://github.com/APoorDev/mOS/issues/1418)) ([ddd9f48](https://github.com/APoorDev/mOS/commit/ddd9f483484f94263ad8cfe3d1d7612e5d464ac9))
+* **just:** remind user to run dx-group ([#1524](https://github.com/APoorDev/mOS/issues/1524)) ([c2bf774](https://github.com/APoorDev/mOS/commit/c2bf774593016e6387b0525de16d7689a4ff133b))
+* **motd:** clarify banner toggle wording ([#1462](https://github.com/APoorDev/mOS/issues/1462)) ([5937fd0](https://github.com/APoorDev/mOS/commit/5937fd03bcecc93ee1bb5cc99118f0254b708067))
+* point to ublue containers ([e00dfff](https://github.com/APoorDev/mOS/commit/e00dfffe0151d0cbe9405c8dd78d3654112a1e79))
+* port clash between InvokeAI and Cockpit ([#1394](https://github.com/APoorDev/mOS/issues/1394)) ([c817600](https://github.com/APoorDev/mOS/commit/c81760040f9efdea66ebd1977809a99491de39aa))
+* remove conflicting nvidia initramfs files ([#1458](https://github.com/APoorDev/mOS/issues/1458)) ([97c56f2](https://github.com/APoorDev/mOS/commit/97c56f257d344cff6051008ed367d66704cf62cc))
+* rename renovate.json to renovate.json5 ([#1421](https://github.com/APoorDev/mOS/issues/1421)) ([3607d49](https://github.com/APoorDev/mOS/commit/3607d49f4f7acd0ad44292ed6239f1ce01815bd0))
+* reorder nvidia install for coreos ([#1459](https://github.com/APoorDev/mOS/issues/1459)) ([3158ba2](https://github.com/APoorDev/mOS/commit/3158ba2c3764779feb46ab6d95ad667d6dd1ab92))
+* revert back to spring wallpaper ([#1387](https://github.com/APoorDev/mOS/issues/1387)) ([706383c](https://github.com/APoorDev/mOS/commit/706383cfb568d050c3722fbbe4f1971e474bc754))
+* summer background ([#1427](https://github.com/APoorDev/mOS/issues/1427)) ([a97f1fa](https://github.com/APoorDev/mOS/commit/a97f1fabf3357b9b757ce81a59d0557a5b03a83d))
+* ujust manage script now creates correct wazuh user and now requires wazuh ip ([b4b3105](https://github.com/APoorDev/mOS/commit/b4b310547fb86ce9ba4820f50854e248e2c3d41f))
+* update gnome-vrr copr ([#1492](https://github.com/APoorDev/mOS/issues/1492)) ([94a38ed](https://github.com/APoorDev/mOS/commit/94a38ed060fd4776447c8b7aa193eb7fca167cf9))
+* update project documentation link ([#1533](https://github.com/APoorDev/mOS/issues/1533)) ([faf7303](https://github.com/APoorDev/mOS/commit/faf7303afa6f8d6e747940c1d1ba63c6d2d43c80))
+* use bash comparison ([#1442](https://github.com/APoorDev/mOS/issues/1442)) ([0b04956](https://github.com/APoorDev/mOS/commit/0b049568375182d563a61400ec3d52f3ac3c3a26))
+* wazuh ip check to allow domains ([ff76c1e](https://github.com/APoorDev/mOS/commit/ff76c1e0d8ccc4b10791c0e77766f9aedacc52fc))
+
+
+### Miscellaneous Chores
+
+* release 3.0.0 ([4d21c40](https://github.com/APoorDev/mOS/commit/4d21c4096ecf8270e77e97d7cbb472587f19e440))
+
 ## [3.1.0](https://github.com/ublue-os/bluefin/compare/v3.0.0...v3.1.0) (2024-07-21)
 
 
